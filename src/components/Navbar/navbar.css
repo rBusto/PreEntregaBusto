@@ -1,0 +1,42 @@
+
+
+a{
+  text-decoration: none;
+}
+
+.main-navbar__icon {
+  max-width: 100%;
+  height: 30px;
+}
+
+.cart-widget-icon{
+  max-width: 100%;
+  height: 30px;
+}
+
+.sticky-bottom, .sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1020;
+}
+
+.main-navbar__inicio {
+    border-left: none;
+    border-bottom: 6px solid #919191;
+}
+
+.main-navbar__pokedex {
+    border-left: none;
+    border-bottom: 6px solid #e3350d;
+}
+
+.main-navbar__cartas {
+    border-left: none;
+    border-bottom: 6px solid #e6bc2f
+}
+
+.fw-bold:hover{
+  color: rgb(128, 128, 128);
+}
+
+

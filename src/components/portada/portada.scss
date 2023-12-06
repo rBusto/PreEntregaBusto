@@ -1,0 +1,14 @@
+.portada{
+background-color: rgb(144, 132, 132);
+display: flex;
+justify-content: center;
+height: 170px;
+padding-top: 7px;
+
+    .portada__img{
+        img{
+            width: 450px;
+            height: 150px;
+        }
+    }
+}
