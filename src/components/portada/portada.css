@@ -1,5 +1,5 @@
 .portada {
-  background-color: rgb(144, 132, 132);
+  background: linear-gradient(300deg,deepskyblue,#d6d6d6);
   display: flex;
   justify-content: center;
   height: 170px;
