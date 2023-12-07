@@ -6,7 +6,6 @@ import imgPokédex from '../../assets/pokedex.png'
 import imgCartas from '../../assets/pokeball.png'
 import CartWidget from '../CartWidget/CartWidget'
 
-
 const Navbar = () => {
     return (
         <div className='sticky-top'>
@@ -19,7 +18,7 @@ const Navbar = () => {
                         <ul className="navbar-nav mx-auto my-2 my-lg-0">
 
                             <li className="nav-item">
-                                <Link className="nav-link active main-navbar__inicio" href="/">
+                                <Link className="nav-link active main-navbar__inicio" to='/'>
                                     <span className="mx-4">
                                         <img className="main-navbar__icon" src={imgInicio} alt="inicio-logo"/>
                                     </span>
@@ -28,7 +27,7 @@ const Navbar = () => {
                             </li>
 
                             <li className="nav-item">
-                                <Link className="nav-link active main-navbar__pokedex" href="/Pokedex">
+                                <Link className="nav-link active main-navbar__pokedex" to='/Pokedex'>
                                     <span className="mx-4">
                                         <img className="main-navbar__icon" src={imgPokédex} alt="inicio-logo"/>
                                     </span>
@@ -38,7 +37,7 @@ const Navbar = () => {
 
 
                             <li className="nav-item">
-                                <Link className="nav-link active main-navbar__cartas" href="/Cartas">
+                                <Link className="nav-link active main-navbar__cartas" to='/Cartas'>
                                     <span className="mx-4">
                                         <img className="main-navbar__icon" src={imgCartas} alt="inicio-logo"/>
                                     </span>
@@ -47,7 +46,7 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
-                    <Link class="position-relative carrito" href="/cart">
+                    <Link class="position-relative carrito" to="/cart">
                         <CartWidget />
                     </Link>
                 </div>

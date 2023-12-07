@@ -1,0 +1,22 @@
+.main-sections__slider .slick-slider button {
+  display: block;
+}
+.main-sections__slider .card-container h5 {
+  color: red;
+}
+.main-sections__slider .card {
+  width: 500px;
+}
+
+button {
+  display: block;
+}
+
+.main-sections__slider {
+  min-height: 630px;
+  background-color: #313131;
+}
+
+section {
+  display: block;
+}/*# sourceMappingURL=cartasDestacadas.css.map */

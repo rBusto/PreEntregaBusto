@@ -1,5 +1,6 @@
 .carousel-item{
-    transition: transform 1s ease, opacity .5s ease-out
+    transition: transform 1s ease, opacity .5s ease-out;
+    pointer-events: none
     
 }
 

@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 
-const Pokedex = () => {
+const Carrito = () => {
     return (
-        <div>   
+        <div>
             <Navbar />
-            <h1>Esta es la pagina de Pokemons!</h1>
+            <h1>Esta es la seccion del carrito de compra!</h1>
         </div>
     )
 }
 
-export default Pokedex
+export default Carrito
