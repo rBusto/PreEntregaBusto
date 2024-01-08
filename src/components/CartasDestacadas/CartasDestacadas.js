@@ -6,6 +6,7 @@ import imgPortada from '../../assets/star.png';
 import PokemonData from '../PokemonData';
 
 
+
 const CartasDestacadas = () => {
     const responsive = {
         superLargeDesktop: {
@@ -26,7 +27,7 @@ const CartasDestacadas = () => {
         }
     };
     return (
-        <section className="container-xxl main-sections__slider">
+        <section className="container-xxl main-sections__slider mb-3">
             <div className="text-white py-2 d-flex align-items-center m-3">
                 <img className="img-fluid h-40px ps-5" src={imgPortada} alt="gear icon" style={{width: 100}}/>
                 <span className="fs-3 ps-3" style={{fontWeight: 'bold'}}>Cartas Destacadas</span>    
